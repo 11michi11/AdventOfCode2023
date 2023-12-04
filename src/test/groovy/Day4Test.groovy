@@ -7,7 +7,7 @@ class Day4Test extends Specification {
         var day = new Day4()
 
         expect:
-        day.part1("four-test") == 1
+        day.part1("four-test") == 13
     }
 
     def "Part1"() {
@@ -27,7 +27,7 @@ class Day4Test extends Specification {
         var day = new Day4()
 
         expect:
-        day.part2("four-test") == 1
+        day.part2("four-test") == 30
     }
 
     def "Part2"() {
